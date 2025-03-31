@@ -4,7 +4,6 @@
 /.esphome/
 /secrets.yaml
 /archivedComponents
-hub75_matrix_display/
 apollo-msr-2-08c830.yaml
 apollo-mtr-1-ceb23c.yaml
 apollo-mtr-1-livingroom.yaml
