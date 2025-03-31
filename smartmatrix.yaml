@@ -10,8 +10,8 @@ esphome:
     - https://github.com/acvigue/libwebp
 
 external_components:
-  - source: https://github.com/carmichaeldylan-cdpro/ESPHome-HomeAssistant-Matrix@main
-    components: smartmatrix
+  - source: github://carmichaeldylan-cdpro/ESPHome-HomeAssistant-Matrix@main
+
 
 mqtt:
   broker: MQTT_HOST-OR-HOME_ASSISTANT_MQTT_HOST
@@ -39,8 +39,8 @@ display:
 number:
   - platform: smartmatrix
     name: "Matrix Brightness"
-    id: matrix_brightness  # Changed to avoid conflict with display ID
-    matrix_id: matrix_display  # Now matches the display's ID
+    id: matrix_brightness 
+    matrix_id: matrix_display
     min_value: 0
     max_value: 255
     step: 1
