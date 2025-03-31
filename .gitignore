@@ -1,0 +1,18 @@
+# Gitignore settings for ESPHome
+# This is an example and may include too much for your use-case.
+# You can modify this file to suit your needs.
+/.esphome/
+/secrets.yaml
+/archivedComponents
+hub75_matrix_display/
+apollo-msr-2-08c830.yaml
+apollo-mtr-1-ceb23c.yaml
+apollo-mtr-1-livingroom.yaml
+entertainment-center-ir-esp32.yaml
+esp32-bluetooth-proxy-3c20b0.yaml
+test-matrix.yaml
+secrets.yaml
+ratgdov25i-e4686c.yaml
+ir-receiver.yaml
+ir-bridge.yaml
+matrix-display.yaml
