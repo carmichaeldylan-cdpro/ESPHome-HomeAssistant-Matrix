@@ -13,7 +13,6 @@ external_components:
   - source: https://github.com/carmichaeldylan-cdpro/ESPHome-HomeAssistant-Matrix@main
     components: smartmatrix
 
-
 mqtt:
   broker: MQTT_HOST-OR-HOME_ASSISTANT_MQTT_HOST
   username: mqtt
