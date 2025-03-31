@@ -15,7 +15,7 @@ external_components:
 
 
 mqtt:
-  broker: 192.168.10.124
+  broker: MQTT_HOST-OR-HOME_ASSISTANT_MQTT_HOST
   username: mqtt
   password: !secret mqtt_password
 
